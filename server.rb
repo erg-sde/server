@@ -2,7 +2,7 @@ require 'sinatra'
 
 
 get '/' do
-  "Hello World"
+  "<strong>Hello World</strong>"
 end
 
 
