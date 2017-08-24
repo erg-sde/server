@@ -2,8 +2,9 @@ require 'sinatra'
 
 
 get '/' do
-  "<strong>Hello World</strong>"
+  File.read(File.join('public', 'hello.txt'))
 end
+
 
 
 get "/sinatra" do
